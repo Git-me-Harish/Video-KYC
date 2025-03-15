@@ -1,0 +1,25 @@
+{
+  "name": "ekyc-main",
+  "version": "1.0.0",
+  "description": "## Update - 7/12/2024: The source code has been rewritten and tested to be compatible with the VGGFace2 model (InceptionResnetV1). However, I have only tested it using Norm L2 for face matching.",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "ekyc-main": "file:",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "http-proxy-middleware": "^3.0.3",
+    "mongoose": "^8.12.1"
+  }
+}
